@@ -1,17 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import ItemListContainer from "./components/ItemListContainer";
-import Navbar from "./components/Navbar";
+import ItemList from "./components/ItemList";
 
 
 
 
 function App() {
   return (
-    <>
-    <Navbar />
-    <ItemListContainer greeting = "Hola desde ItemListContainer" />
-    </>
+    <div>
+      <ItemList/>
+    </div>
   );
 }
+
 
 export default App;

@@ -1,16 +1,10 @@
 import React from 'react'
-import ItemCount from './ItemCount'
+import ItemList from './ItemList'
 
-function ItemListContainer({greeting}){
-
-    const onAdd = (cant) => {
-        console.log(cant)
-    }
-
+function ItemListContainer(){
     return (
         <div>
-           <h1>{greeting}</h1> 
-           <ItemCount stock={5} initial={0} onAdd={onAdd}/>
+           <ItemList />
         </div>
     )
 }
